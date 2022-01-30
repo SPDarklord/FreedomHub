@@ -1,0 +1,51 @@
+name: FreedomHub
+version: 1.4.3
+main: net.freedom.dev.Main
+description: The FreedomHub Plugin
+commands:
+    endersummon:
+        description: Create the endercrystal
+    entitykill:
+        description: Kill the crystals!
+    gc:
+        description: Get Uptime, Memory Stats
+        aliases: [mem,uptime,memory]
+    playermessages:
+        description: Displays player join and leave messages
+        aliases: [pmessages,playerm,joinm,joinmessages,leavem,leavemessages]
+    spawn:
+        description: Spawn commands
+    chatclear:
+        description: Clear a players items!
+    clear:
+        description: Clear a players items!
+    clearall:
+        description: Clear all players items!
+    invsee:
+        description: See a players items!
+    armour:
+        description: Give a player armour
+    tp:
+        description: Teleport
+    teleport:
+        description: Teleport
+    fly:
+        description: Toggle someones flight
+    gm:
+        description: Change the gamemode of yourself or a player.
+        aliases: [gamemode,gm,mode,gma,gmc,gms]
+    Vanish:
+        description: Vanish a player
+        aliases: [v]
+    flyspeed:
+        description: Flyspeed
+        aliases: [speed, fs, s]
+    warp:
+        description: warping
+        aliases: [warp, w]
+    broadcast:
+        description: Broadcast
+        aliases: [bc]
+    achat:
+        description: Talk to admins
+        aliases: [ac, adminc, achat, chatadmin]
